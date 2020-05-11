@@ -1,0 +1,14 @@
+git init --bare //初始化仓库
+/*--------------------------*/
+git add .    //添加修改内容
+git commit -am " "   //本地提交
+git push   //推送
+git pull    //同步
+/*-----------------------
+git merge 分支名   //合并分支
+git reset --hard  //撤销当前修改内容,谨慎使用
+--------------------------*/
+git clone URL   //克隆仓库到本地  
+git checkout 分支名  //切换分支
+git branch -a  //查看当前所有分支
+gitk   查看仓库当前分支
